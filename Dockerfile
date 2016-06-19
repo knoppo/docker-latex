@@ -1,4 +1,8 @@
 FROM debian:stable
+
 MAINTAINER Mathias Stelzer <knoppo@rolln.de>
-RUN apt update 
-RUN apt install -y texlive-full
+
+ENV DEBIAN_FRONTEND noninteractive
+
+RUN apt-get update 
+RUN apt-get install -y texlive-full
