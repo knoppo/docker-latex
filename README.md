@@ -1,6 +1,9 @@
 docker-latex
 ============
 
+*debian:stable* with *texlive-full*
+
 Automated build
 
-*debian:stable* with *texlive-full*
+https://hub.docker.com/r/knoppo/docker-latex/
+
